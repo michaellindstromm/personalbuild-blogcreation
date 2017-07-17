@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>CSS Grid Practice</title>
+    <link rel="stylesheet" src="//normalize-css.googlecode.com/svn/trunk/normalize.css"/>
+    <link rel="stylesheet" href="css/styles2.css">
+  </head>
+  <body>
+      <header class="div">
+        <img src="images/prof-pic.jpg" alt="Profile Picture" id="prof-pic">
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li class="active"><a href="more.html">More</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main class="div">
+        <h2>Write your Blog</h2>
+        <div class="bloggingArea">
+          <form class="blogPosts" action="index.html" method="post">
+            <fieldset class="text">
+              <label for="title">Title</label>
+              <input type="text" name="title" value="" class="blogTitle" id="blogTitle">
+              <br>
+              <label for="author">Author</label>
+              <input type="text" name="author" value="" class="blogAuthor" id="blogAuthor">
+              <br>
+              <label for="blogArea">Blog</label>
+              <textarea name="blogArea" rows="14" cols="100" id="blogContent"></textarea>
+              <br>
+            </fieldset>
+            <label for="image" class="image-title">Image</label>
+            <div class="button-img">
+              <input type="file" name="image" value="" id="blog-img-url">
+              <button type="button" name="button" onsubmit="" id="blogButton">Submit</button>
+            </div>
+
+          </form>
+        </div>
+      </main>
+      <aside class="div" id="postArea">
+
+      </aside>
+      <div class="sidebar div">
+        <!-- Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. -->
+      </div>
+
+      <footer class="div" id="footer">
+
+      </footer>
+    </div>
+    <script type="text/javascript" src="javascripts/blogs.js">
+
+    </script>
+  </body>
+</html>
